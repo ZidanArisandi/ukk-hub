@@ -7,11 +7,14 @@
       font-family: Arial, sans-serif;
     }
     .login-container {
+      background: maroon;
+      color: white;
       width: 300px;
       margin: 0 auto;
       padding: 20px;
-      border: 1px solid #ccc;
+      border: 1px solid #B70404;
       border-radius: 5px;
+      margin-top: 13%;
     }
     .login-container h2 {
       text-align: center;
@@ -26,7 +29,7 @@
     .form-group input {
       width: 100%;
       padding: 5px;
-      border: 1px solid #ccc;
+      border: 1px solid #B70404;
       border-radius: 3px;
     }
     .form-group input[type="submit"] {
@@ -35,7 +38,7 @@
       cursor: pointer;
     }
     .form-group input[type="submit"]:hover {
-      background-color: #45a049;
+      background-color: #F9F5F6;
     }
   </style>
 </head>
@@ -57,6 +60,9 @@
       </div>
       <div class="form-group">
         <input type="submit" value="Login">
+      </div>
+      <div class="form-group">
+        <a href="register.php">Register </a>
       </div>
     </form>
   </div>
